@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/enterName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:hint="Enter Name" />
+
+        <EditText
+            android:id="@+id/enterFamily"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Family" />
+
+        <Button
+            android:id="@+id/btn_save"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="20dp"
+            android:background="#DD2292DD"
+            android:padding="20dp"
+            android:text="Save to database" />
+
+        <Button
+            android:id="@+id/btn_get_data"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="20dp"
+            android:background="#DD2292DD"
+            android:padding="20dp"
+            android:text="GET DATA" />
+
+        <Button
+            android:id="@+id/btn_activity_two"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#DD2292DD"
+            android:layout_gravity="center"
+            android:padding="20dp"
+            android:layout_margin="20dp"
+            android:text="Second Activity" />
+
+    </LinearLayout>
+
+
+</android.support.constraint.ConstraintLayout>
